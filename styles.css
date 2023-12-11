@@ -4,33 +4,6 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-nav {
-    width: 100%;
-    background-color: rgb(255, 143, 214);
-    position: relative;
-    overflow: hidden;
-    height: auto;
-}
-
-nav ul {
-    display: flex;
-}
-
-nav ul li {
-    text-decoration: none;
-    margin: 0px 10px;
-    text-decoration: none;
-    list-style: none;
-}
-
-nav a {
-    text-decoration: none;
-    color: white;
-    text-align: center;
-}
-
-
-
 body {
     width: 100%;
     background-color: #FFB1F0;
@@ -79,4 +52,27 @@ body {
     height: auto;
     position: relative;
     border-radius: 50%;
+}
+
+.shop {
+    height: auto;
+    width: 100%;
+    padding: 1vh;
+    flex-wrap: wrap;
+    align-self: center;
+    text-align: center;
+}
+
+.item{
+    border: 2px black;
+    margin: 10px;
+    width: 45vh;
+    height: 45vh;
+    display: inline-flex;
+}
+
+.item img {
+    width: 45vh;
+    border-radius: 25%;
+    box-shadow: 4px 2px 6px black;
 }
